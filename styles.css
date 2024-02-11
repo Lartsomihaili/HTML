@@ -1,0 +1,12 @@
+body {
+    fieldset {
+        background-color: rgb(179, 192, 101)
+    }
+
+    width: 50%margin auto;
+    background-color: rgb(87, 87, 144);
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Georgia',
+    serif;
+}
