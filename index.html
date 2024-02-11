@@ -2,27 +2,31 @@
 <html>
 
 <head>
-    <title> Huomenta Suomi </title>
+    <link type=text/css rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <fieldset>
         <legend>Yhteystiedot:</legend>
-        <form action="/koodi.php">
-            <label for="fname">Etunimi:</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">Sukunimi:</label><br>
-            <input type="text" id="lname" name="lname" value=""><br>
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email" value=""><br>
-            <label for="tphone">Puhelin:</label><br>
-            <input type="text" id="phone" name="phone" value=""><br><br>
-            <label for="yhteydenotto">Yhteydenotto:</label><br>
-            <input type="checkbox" id="Puhelin" name="Puhelin" value="Puhelin">
-            <label for="Puhelin"> Puhelimitse</label><br>
-            <input type="checkbox" id="Sahkoposti" name="Sahkoposti" value="Sahkoposti">
-            <label for="Sähköpostilla"> Sähköpostilla</label><br>
-        </form>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <label for="fname">Etunimi:</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Sukunimi:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" value=""><br>
+                    <label for="tphone">Puhelin:</label><br>
+                    <input type="text" id="phone" name="phone" value=""><br><br>
+                    <label for="yhteydenotto">Yhteydenotto:</label><br>
+                    <input type="checkbox" id="Puhelin" name="Puhelin" value="Puhelin">
+                    <label for="Puhelin"> Puhelimitse</label><br>
+                    <input type="checkbox" id="Sahkoposti" name="Sahkoposti" value="Sahkoposti">
+                    <label for="Sähköpostilla"> Sähköpostilla</label><br>
+                </div>
+            </div>
+        </div>
     </fieldset>
     <fieldset>
         <legend>Palaute:</legend>
